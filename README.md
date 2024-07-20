@@ -1,3 +1,3 @@
 # sample-repo
 
-Git 練習用リポジトリ
+Git 練習用の公開リポジトリ
