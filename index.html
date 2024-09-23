@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .slider div {
+      height: 400px;
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".slider").bxSlider({
+        auto: true, // 自動スライド
+        // autoControls: true,
+        // speed: 1000, // スライドショーのスピード
+        // mode: 'fade', // スライドショーの種類
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <h1>bxSlider</h1>
+  <p><a href="https://bxslider.com/install/">本家 bxslider.com </a></p>
+  <p><a href="https://bxslider.com/options">オプション</a></p>
+  <p><a
+      href="http://www.narugaro.com/web/%E7%B0%A1%E5%8D%98%EF%BC%81bxslider%E3%81%A7%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89%E3%82%B7%E3%83%A7%E3%83%BC%E3%82%92%E4%BD%9C%E6%88%90/">簡単！bxSliderでスライドショーを作成
+      ｜ やってみたら、できた。</a></p>
+
+  <div class="slider">
+    <div>I am a slide 1.</div>
+    <div>I am a slide 2.</div>
+    <div>I am a slide 3.</div>
+    <div>I am a slide 4.</div>
+  </div>
+
+</body>
+
+</html>
