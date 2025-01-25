@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .slider div {
+      height: 400px;
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".slider").bxSlider({
+        auto: true, // 自動スライド
+        // autoControls: true,
+        // speed: 1000, // スライドショーのスピード
+        // mode: 'fade', // スライドショーの種類
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <h1>リンクテスト</h1>
+  <p><a href="html/page1.html">page1.html</a></p>
+  <p><a href="html/page2.html">page2.html</a></p>
+
+
+  <div class="slider">
+    <div>I am a slide 1.</div>
+    <div>I am a slide 2.</div>
+    <div>I am a slide 3.</div>
+    <div>I am a slide 4.</div>
+  </div>
+  <hr>
+
+</body>
+
+</html>
